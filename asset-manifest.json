@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oleksiiruzhytskiy/Check_password_strength/static/css/main.f2d38652.css",
+    "main.js": "/oleksiiruzhytskiy/Check_password_strength/static/js/main.ce802544.js",
+    "index.html": "/oleksiiruzhytskiy/Check_password_strength/index.html",
+    "main.f2d38652.css.map": "/oleksiiruzhytskiy/Check_password_strength/static/css/main.f2d38652.css.map",
+    "main.ce802544.js.map": "/oleksiiruzhytskiy/Check_password_strength/static/js/main.ce802544.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2d38652.css",
+    "static/js/main.ce802544.js"
+  ]
+}
