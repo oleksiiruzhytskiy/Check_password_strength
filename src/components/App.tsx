@@ -3,8 +3,6 @@ import { useState } from "react";
 import PasswordStrengthIndicator from "./password_Indicator";
 import { usePasswordStrength } from "../hooks/usePasswordStrength";
 
-type Strength = "" | "weak" | "easy" | "medium" | "strong";
-
 function App() {
   const [password, setPassword] = useState("");
   const passwordStrength = usePasswordStrength(password);
