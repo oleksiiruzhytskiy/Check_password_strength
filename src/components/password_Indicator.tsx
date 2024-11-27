@@ -1,17 +1,12 @@
 import React from "react";
 import { Strength } from "../hooks/usePasswordStrength";
+import { strengthClasses } from "../variable/password_check";
 
 type Props = {
   strength: Strength;
 };
 
 const PasswordStrengthIndicator: React.FC<Props> = ({ strength }) => {
-  const strengthClasses = {
-    weak: ["weak-password", "weak-password", "weak-password"],
-    easy: ["weak-password", "weak-password", ""],
-    medium: ["medium-password", "medium-password", ""],
-    strong: ["strong-password", "strong-password", "strong-password"],
-  };
 
   return (
     <div className="strength-lines-container">
